@@ -1,6 +1,6 @@
 name: native_image_platform_interface
 description: A new Flutter package project.
-version: 0.0.1
+version: 1.0.0 
 homepage: teddichiiwa.com
 
 environment:
@@ -16,6 +16,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  meta: 1.3.0
 
   # linter
   vm_lint:
