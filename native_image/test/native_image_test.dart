@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('native_image');
+  const MethodChannel channel = MethodChannel('com.teddichiiwa/native_image');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

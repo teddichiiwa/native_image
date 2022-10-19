@@ -17,7 +17,7 @@ class NativeImagePlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "native_image")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.teddichiiwa/native_image")
     channel.setMethodCallHandler(this)
   }
 
