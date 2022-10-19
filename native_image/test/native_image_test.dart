@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:native_image/native_image.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('native_image');
@@ -17,7 +16,5 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await NativeImage.platformVersion, '42');
-  });
+  test('cropImage', () async {});
 }

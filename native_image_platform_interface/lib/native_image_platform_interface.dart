@@ -1,5 +1,7 @@
 library native_image_platform_interface;
 
+import 'dart:typed_data';
+
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'method_channel_native_image.dart';
@@ -29,5 +31,14 @@ abstract class NativeImagePlatform extends PlatformInterface {
   static set instance(NativeImagePlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
+  }
+
+  /// crop image by width and height
+  Future<Uint8List?> cropImage({
+    required Uint8List bytes,
+    required double width,
+    required double height,
+  }) {
+    throw UnimplementedError('cropImage() has not been implemented.');
   }
 }
