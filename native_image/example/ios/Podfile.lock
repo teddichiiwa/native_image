@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - native_image (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - native_image (from `.symlinks/plugins/native_image/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  native_image:
+    :path: ".symlinks/plugins/native_image/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  native_image: 8dc78fd3e1218b7eeb83194982354ecd39434647
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
