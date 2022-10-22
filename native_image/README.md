@@ -1,15 +1,25 @@
-# native_image
+# Native image
 
-A new flutter plugin project.
+A flutter plugin for handling images on iOS and Android
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+```dart
+final croppedImageData = await NativeImage().cropImage(
+    bytes: originImageData,
+    width: 1,
+    height: 1,
+);
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/teddichiiwa/native_image/blob/main/native_image/example/assets/demo_image.png" width="500" />
 
+## Features
+
+- [x] Crop image (by aspect ratio).
+- [x] Can process image even the phone screen was locked.
+
+## Todo
+
+- [ ] Compress image.
+- [ ] Merge multiple images.
