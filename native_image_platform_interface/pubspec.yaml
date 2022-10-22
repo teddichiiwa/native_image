@@ -1,6 +1,6 @@
 name: native_image_platform_interface
-description: Flutter plugin for handling images on iOS and Android
-version: 1.0.0 
+description: Flutter plugin for handling images on iOS and Android. This plugin allows image to process even when device screen is locked.
+version: 1.0.2 
 homepage: https://teddichiiwa.com
 repository: https://github.com/teddichiiwa/native_image/tree/main/native_image
 issue_tracker: https://github.com/teddichiiwa/native_image/issues
