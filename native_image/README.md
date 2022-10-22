@@ -12,7 +12,7 @@ final croppedImageData = await NativeImage().cropImage(
 );
 ```
 
-<img src="https://github.com/teddichiiwa/native_image/blob/main/native_image/example/assets/demo_image.png" width="500" />
+<img src="https://raw.githubusercontent.com/teddichiiwa/native_image/main/native_image/example/assets/demo_image.png" width="500" />
 
 ## Features
 

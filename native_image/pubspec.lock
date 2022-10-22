@@ -77,9 +77,9 @@ packages:
   native_image_platform_interface:
     dependency: "direct main"
     description:
-      path: "../native_image_platform_interface"
-      relative: true
-    source: path
+      name: native_image_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "1.0.0"
   path:
     dependency: transitive
