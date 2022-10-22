@@ -14,8 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  native_image_platform_interface:
-    path: ../native_image_platform_interface 
+  native_image_platform_interface: ^1.0.0
 
 dev_dependencies:
   flutter_test:
